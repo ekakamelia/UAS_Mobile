@@ -18,7 +18,7 @@ function Tabs() {
       <Tab.Screen name="Beranda" component={Beranda} options={{
         taBarLabel: 'Beranda',
         tabBarIcon: ({color}) => (
-          <MaterialCommunityIcons name="HomeCircle" color={color} size={26} />
+          <MaterialCommunityIcons name="home-account" color={color} size={26} />
         ),
       }} />
       <Tab.Screen name="Setelan" component={Setelan} options={{
