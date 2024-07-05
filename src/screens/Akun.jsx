@@ -1,12 +1,14 @@
-import { StyleSheet, Text, View,TouchableOpacity,Alert} from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function Akun() {
+const Akun = () => {
   return (
     <View>
-      <>Akun</Text>
+      <Text>Akun</Text>
     </View>
   )
 }
+
+export default Akun
 
 const styles = StyleSheet.create({})

@@ -18,7 +18,7 @@ function Tabs() {
       <Tab.Screen name="Beranda" component={Beranda} options={{
         taBarLabel: 'Beranda',
         tabBarIcon: ({color}) => (
-          <MaterialCommunityIcons name="home-account" color={color} size={26} />
+          <MaterialCommunityIcons name="home" color={color} size={26} />
         ),
       }} />
       <Tab.Screen name="Setelan" component={Setelan} options={{
@@ -50,3 +50,6 @@ function App() {
 export default App
 
 const styles = StyleSheet.create({})
+judul:  {
+  
+}
