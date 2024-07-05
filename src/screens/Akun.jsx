@@ -1,10 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View,TouchableOpacity,Alert} from 'react-native'
 import React from 'react'
 
 export default function Akun() {
   return (
     <View>
-      <Text>Akun</Text>
+      <>Akun</Text>
     </View>
   )
 }
