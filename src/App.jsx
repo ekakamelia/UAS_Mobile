@@ -8,6 +8,9 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import Beranda from './screens/Beranda';
 import Setelan from './screens/Setelan';
 import Akun from './screens/Akun';
+import Tombol from './screens/tombol1';
+import Tombol2 from './screens/Tombol2'
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -16,7 +19,7 @@ function Tabs() {
   return (
     <Tab.Navigator>
       <Tab.Screen name="Beranda" component={Beranda} options={{
-        taBarLabel: 'Beranda',
+        taBarLabel: 'Beranda', headerShown: false,
         tabBarIcon: ({color}) => (
           <MaterialCommunityIcons name="home" color={color} size={26} />
         ),
@@ -42,6 +45,8 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name='Home' component={Tabs} options={{headerShown:false}} />
+        <Stack.Screen name='DRINK MENU' component={Tombol} />
+        <Stack.Screen name='FOOD MENU' component={Tombol2} />
       </Stack.Navigator>
     </NavigationContainer>
   )
@@ -50,6 +55,3 @@ function App() {
 export default App
 
 const styles = StyleSheet.create({})
-judul:  {
-  
-}
